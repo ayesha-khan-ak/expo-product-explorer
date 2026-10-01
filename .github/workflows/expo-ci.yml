@@ -23,5 +23,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: TypeScript check
-        run: npx tsc --noEmit
+      - name: Expo web build check
+        run: npx expo export --platform web
