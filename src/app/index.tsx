@@ -42,6 +42,10 @@ export default function HomeScreen() {
         <ThemedText type="code" style={styles.code}>
           get started
         </ThemedText>
+        <ThemedText type="subtitle" style={styles.studentInfo}>
+          Name: Ayesha Khan{'\n'}
+          Roll No: i233037
+        </ThemedText>
 
         <ThemedView type="backgroundElement" style={styles.stepContainer}>
           <HintRow
@@ -85,6 +89,9 @@ const styles = StyleSheet.create({
   title: {
     textAlign: 'center',
   },
+  studentInfo: {
+  textAlign: 'center',
+},
   code: {
     textTransform: 'uppercase',
   },
