@@ -11,6 +11,7 @@ import { WebBadge } from '@/components/web-badge';
 import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
 
 const featuredProducts = [
+ 
   { id: 'headphones', name: 'Wireless Headphones', price: '$49.99', emoji: '🎧' },
   { id: 'backpack', name: 'Everyday Backpack', price: '$34.50', emoji: '🎒' },
   { id: 'mug', name: 'Ceramic Coffee Mug', price: '$12.00', emoji: '☕' },
